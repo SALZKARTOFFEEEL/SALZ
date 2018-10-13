@@ -1,0 +1,73 @@
+body {
+  --color: #FDE962;
+  --background-color: #3B305B;
+  
+  background-color: var(--background-color);
+  color: var(--color);
+  display: block;
+  
+  font-family: "Ubuntu", "Aller", "Open Sans", sans-serif;
+  user-select: none;
+  text-align: center;
+  font-size: 2em;
+}
+
+*:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 32px 0px;
+}
+h2 {
+  font-size: 1em;
+  margin: 32px 0px;
+}
+
+hr {
+  margin-block-start: -16px;
+  margin-block-end: -16px;
+  
+  border-color: var(--color);
+  border-style: solid;
+  
+  width: 10em;
+}
+
+.salz {
+  font-weight: bold;
+}
+.dot {
+  font-weight: lighter;
+}
+.ga {
+  font-size: 0.5em;
+  font-weight: lighter;
+}
+
+
+input.redir {
+  
+  background-color: var(--background-color);
+  color: var(--color);
+  text-align: inherit;
+  font: inherit;
+  font-size: inherit;
+  
+  margin-top: 32px;
+  border-color: var(--color);
+  border-radius: 32px;
+  border-width: 4px;
+  border-style: solid;
+}
+
+input.redir.button {
+  background-color: var(--color);
+  color: var(--background-color);
+  font-weight: bold;
+  cursor: pointer;
+  
+  margin-top: 16px;
+  padding: 8px 32px;
+}
