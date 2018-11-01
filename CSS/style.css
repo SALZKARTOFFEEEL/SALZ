@@ -11,7 +11,7 @@ body {
   display: block;
   
   font-family: "Ubuntu", "Aller", "Open Sans", sans-serif;
-  user-select: none;
+  /* user-select: none; */
   text-align: center;
   font-size: 2em;
 }
