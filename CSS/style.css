@@ -1,77 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono');
-
-
-
 body {
-  --color: #FDE962;
-  --background-color: #3B305B;
-  
-  background-color: var(--background-color);
-  color: var(--color);
-  display: block;
-  
-  font-family: "Ubuntu", "Aller", "Open Sans", sans-serif;
-  /* user-select: none; */
-  text-align: center;
-  font-size: 2em;
+  margin: 1em;
 }
 
-*:focus {
-  outline: none;
+table {
+  width: 100%;
 }
 
-h1 {
-  font-size: 2em;
-  margin: 32px 0px;
-}
-h2 {
-  font-size: 1em;
-  margin: 32px 0px;
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, .05);
 }
 
-hr {
-  margin-block-start: -16px;
-  margin-block-end: -16px;
-  
-  border-color: var(--color);
-  border-style: solid;
-  
-  width: 10em;
+td {
+  width: 50%;
+}
+td:first-child::after {
+  content: ":";
 }
 
-.salz {
-  font-weight: bold;
-}
-.dot {
-  font-weight: lighter;
-}
-.ga {
-  font-size: 0.5em;
-  font-weight: lighter;
+a {
+  color: unset;
 }
 
-
-input.redir {
-  
-  background-color: var(--background-color);
-  color: var(--color);
-  text-align: inherit;
-  font: inherit;
-  font-size: inherit;
-  
-  margin-top: 32px;
-  border-color: var(--color);
-  border-radius: 32px;
-  border-width: 4px;
-  border-style: solid;
+.telegram {
+  color: #08c;
 }
-
-input.redir.button {
-  background-color: var(--color);
-  color: var(--background-color);
-  font-weight: bold;
-  cursor: pointer;
-  
-  margin-top: 16px;
-  padding: 8px 32px;
+.discord {
+  color: #7289da;
+}
+.anilist {
+  color: #0098ff;
+}
+.osu {
+  color: #f6a;
+}
+.soundcloud {
+  color: #f50;
+}
+.twitter {
+  color: #1da1f2;
+}
+.github {
+  color: #000;
+}
+.gitlab {
+  color: #e65328;
+}
+.youtube {
+  color: #f00;
 }
